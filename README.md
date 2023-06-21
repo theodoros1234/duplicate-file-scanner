@@ -5,7 +5,7 @@ Duplicate File Scanner is a Python script that scans specified sources for dupli
 ## Usage
 
 ```
-$ python3 duplicate-file-scanner.py [arguments] <source_paths>...
+python3 duplicate-file-scanner.py [arguments] <source_paths>...
 ```
 
 ## Arguments
@@ -18,19 +18,19 @@ $ python3 duplicate-file-scanner.py [arguments] <source_paths>...
 ## Examples
 
 ```
-$ python3 duplicate-file-scanner.py -v /path/to/source
+python3 duplicate-file-scanner.py -v /path/to/source
 ```
 
 Scan for duplicate files in the `/path/to/source` directory and display verbose output.
 
 ```
-$ python3 duplicate-file-scanner.py -s results.txt /path/to/source1 /path/to/source2
+python3 duplicate-file-scanner.py -s results.txt /path/to/source1 /path/to/source2
 ```
 
 Scan for duplicate files in multiple sources and save the results to the specified file `results.txt`.
 
 ```
-$ python3 duplicate-file-scanner.py -s results.txt -f /path/to/source
+python3 duplicate-file-scanner.py -s results.txt -f /path/to/source
 ```
 
 Scan for duplicate files in the `/path/to/source` directory, force overwrite the results file if it exists.

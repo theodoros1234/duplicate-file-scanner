@@ -127,10 +127,10 @@ SYNOPSIS
     python3 {script_name} [arguments] <source_paths>...
 
 DESCRIPTION
-    The {script_name} script scans specified sources for duplicate files and
-    generates a results page listing the duplicate files found. It provides
-    options to control verbosity, saving results to file, and force overwriting
-    existing results files.
+    This script scans specified sources for duplicate files and generates a
+    results page listing the duplicate files found. It provides options to
+    control verbosity, saving results to file, and force overwriting existing
+    results files.
 
 OPTIONS
     -h, --help
